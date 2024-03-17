@@ -140,6 +140,24 @@ Now, your API should be ready to be invoked from your front-end app using the fo
 
 ![Screen Shot 2024-03-17 at 4 24 01 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/eece6f32-0cd4-411d-b814-a1795c74b861)
 
+Before, we move on to our front-end, let's test our API exatly the same way we tested our lambda function, to make sure that it is successfully communicating with our lambda function, and returning a response too:
+
+![Screen Shot 2024-03-17 at 4 28 34 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/ff90cc7a-7df2-4da9-8deb-e1fc1008c702)
+
+Pass the following JSON body, and hit on "Test":
+
+
+           {
+           "body": "{\"board\": [\"O\", \"X\", \" \", \" \", \"X\", \" \", \" \", \" \", \"O\"]}"
+           }
+
+
+![Screen Shot 2024-03-17 at 4 31 13 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/84b19580-ea6f-418b-acbb-9981da78a3e1)
+
+Sweet! It is working too !
+
+![Screen Shot 2024-03-17 at 4 32 23 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/f2f45c26-e904-466c-abf3-d8b18bace398)
+
 
 
 
