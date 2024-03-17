@@ -200,7 +200,7 @@ Click on "Upload":
 
 ![Screen Shot 2024-03-17 at 4 48 13 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/557117fb-ca4e-44e1-b49d-21e5f52f8a86)
 
-As soon as the upload is succssful, click on "Properties" to enable the "Static website hosting" option:
+As soon as the upload is successful, click on "Properties" to enable the "Static website hosting" option:
 
 ![Screen Shot 2024-03-17 at 4 49 05 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/dd9f9154-cac5-498d-bbfe-9ad5b5ca03ab)
 
