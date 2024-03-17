@@ -96,6 +96,25 @@ From the following response, we can tell that the test was successful, and our l
 
 ![Screen Shot 2024-03-17 at 3 59 12 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/100b06f5-91bf-453e-a9a1-f75d5eb5e2b1)
 
+--------------------------------------------------
+# 2) API Gateway:
+--------------------------------------------------
+
+Let's move on to our next component and create our API Gateway. Go to your search bar, and find "API Gateway":
+
+![Screen Shot 2024-03-17 at 4 02 41 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/74c8fc34-9d5d-40ac-9f02-5a5468363c06)
+
+Scroll down and select "REST API":
+
+![Screen Shot 2024-03-17 at 4 06 03 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/c76557fd-6ba8-42df-9c1d-844da9d1a18a)
+
+Give your API a name, and click on "Create API":
+
+![Screen Shot 2024-03-17 at 4 07 34 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/95ed0f65-51e4-4d64-b797-8a67babb2bc4)
+
+
+
+
 
 
 
