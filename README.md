@@ -216,7 +216,7 @@ Then, click on "Save changes":
 
 ![Screen Shot 2024-03-17 at 4 53 57 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/1b6a9005-0fb0-4768-a753-06bc4dde0ecf)
 
-Finally, we will need to attach an IAM Policy to this bucket, to all access to it. Click on "Permissions" tab:
+Finally, we will need to attach an IAM Policy to this bucket, to allow access to it. Click on "Permissions" tab:
 
 ![Screen Shot 2024-03-17 at 4 55 10 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/37fb0db7-c823-4dea-94aa-d6c2cad9b593)
 
