@@ -43,6 +43,17 @@ In the repository, you can find the following files:
 - ./webappfile/script.js: Javascript file which will be handling the game scenarios and will be communicating with the API Gateway back and forth in order to update the state of the game board.
 
 
+--------------------------------------------------
+# Deoployment:
+--------------------------------------------------
+# 1) Lambda Function:
+--------------------------------------------------
+Let's start first with our lambda function.
+
+- Go to your Management Console, and search for "Lambda":
+
+
+
 
 
 
