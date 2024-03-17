@@ -84,7 +84,10 @@ Clear the following JSON Body:
 
 Place the following JSON body instead, which represents a dummy state for the game board:
 
-
+           {
+           "body": "{\"board\": [\"O\", \"X\", \" \", \" \", \"X\", \" \", \" \", \" \", \"O\"]}"
+           }
+  
 
 
 
