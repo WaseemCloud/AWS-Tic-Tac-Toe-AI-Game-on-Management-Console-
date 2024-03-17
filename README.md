@@ -154,7 +154,7 @@ Pass the following JSON body, and hit on "Test":
 
 ![Screen Shot 2024-03-17 at 4 31 13 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/84b19580-ea6f-418b-acbb-9981da78a3e1)
 
-Sweet! It is working too !
+Sweet! It is working too 😉 !
 
 ![Screen Shot 2024-03-17 at 4 32 23 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/f2f45c26-e904-466c-abf3-d8b18bace398)
 
