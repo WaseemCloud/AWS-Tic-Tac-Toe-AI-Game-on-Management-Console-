@@ -28,6 +28,22 @@ Here's a brief explanation of how the MiniMax algorithm works:
 --------------------------------------------------
 ![arch](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/f3f55289-9319-4f9e-91ee-d78f229fd114)
 
+--------------------------------------------------
+# Description:
+--------------------------------------------------
+We will be hosting our static webpage, which represents our game board, on S3 Bucket. We will also create an API Gateway which will be invoking and allowing the communication between the game board and Lambda function, which will be the brain of our game, as the MiniMax logic will be laying in it.
+
+--------------------------------------------------
+# Repository Structure:
+--------------------------------------------------
+In the repository, you can find the following files:
+- lambda_function.py file: This python code needs to be configured in lambda function, as it contains the MiniMax logic for the game play.
+- ./webappfile/index.html: This is our front-end web page which represents the board game and all the actions will be reflected on it on realtime.
+- ./webappfile/styles.css: Adding some styling to the front-end.
+- ./webappfile/script.js: Javascript file which will be handling the game scenarios and will be communicating with the API Gateway back and forth in order to update the state of the game board.
+
+
+
 
 
 
