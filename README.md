@@ -58,7 +58,7 @@ Let's start first with our lambda function.
 
 ![Screen Shot 2024-03-17 at 3 33 27 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/4aae0333-cdf0-4988-a708-605c8a51253d)
 
-- Give a name to your function, select your runtime as "python 3.12", and click on "":
+- Give a name to your function, select your runtime as "python 3.12", and click on "Create function":
 
 ![Screen Shot 2024-03-17 at 3 36 32 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/41907d80-2717-43c5-a168-e85e5b4ad4c6)
 
