@@ -22,8 +22,6 @@ Here's a brief explanation of how the MiniMax algorithm works:
 
 5) Optimal Move Selection: Once the entire tree is evaluated, the algorithm selects the move that leads to the best outcome for the player, assuming the opponent also plays optimally.
 
-Alpha-Beta Pruning (optional): To improve efficiency, an optimization technique called alpha-beta pruning can be applied to eliminate unnecessary branches of the tree, reducing the number of nodes that need to be evaluated.
-
 
 --------------------------------------------------
 # AWS Architecture:
