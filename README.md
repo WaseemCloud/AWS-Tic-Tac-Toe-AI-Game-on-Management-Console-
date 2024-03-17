@@ -227,8 +227,18 @@ Click on "Edit", to add your policy:
 Copy, the following policy and paste it in the box, but make sure to replace the bucket ARN with your correct ARN:
 
 
-
-
+    {
+    "Version":"2012-10-17",
+    "Statement": [
+        {
+            "Sid":"AddPerm",
+            "Effect":"Allow",
+            "Principal":"*",
+            "Action":"s3:GetObject",
+            "Resource":"BUCKET-ARN/*"
+        }
+    ]
+    }
 
 
 
