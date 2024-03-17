@@ -167,7 +167,7 @@ Make sure you update your javascript with your API Key before proceeding with th
 # 3) Hosting our front-end on S3 Bucket:
 --------------------------------------------------
 
-Let's create the our S3 bucket, which will be hosting all our website files (index, css, js).
+Let's create our S3 bucket, which will be hosting all our website files (index, css, js).
 
 Search for "S3" in the search box:
 
