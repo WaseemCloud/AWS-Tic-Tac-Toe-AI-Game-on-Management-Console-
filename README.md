@@ -136,7 +136,7 @@ Create a new Deployment Stage, and hit on "Deploy":
 
 ![Screen Shot 2024-03-17 at 4 21 52 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/8ca093f5-1d09-4705-87e8-51d6eb87145e)
 
-Now, your API should be ready to be invoked from your front-end app using the following Invoke link. Make sure you copy it somewhere save, becaue you will need to update your Javascript code with it:
+Now, your API should be ready to be invoked from your front-end app using the following Invoke link. Make sure you copy it somewhere safe, becaue you will need to update your Javascript code with it:
 
 ![Screen Shot 2024-03-17 at 4 24 01 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/eece6f32-0cd4-411d-b814-a1795c74b861)
 
