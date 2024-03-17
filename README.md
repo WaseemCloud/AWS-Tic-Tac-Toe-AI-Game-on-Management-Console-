@@ -5,6 +5,7 @@ In this tutorial, I will be deploying a Tic-Tac-Toe board game and host it on AW
 --------------------------------------------------
 # AWS Architecture:
 --------------------------------------------------
+![arch](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/f3f55289-9319-4f9e-91ee-d78f229fd114)
 
 
 --------------------------------------------------
