@@ -158,6 +158,84 @@ Sweet! It is working too 😉 !
 
 ![Screen Shot 2024-03-17 at 4 32 23 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/f2f45c26-e904-466c-abf3-d8b18bace398)
 
+NOTE:
+----
+Make sure you update your javascript with your API Key before proceeding with the next step...
+
+
+--------------------------------------------------
+# 3) Hosting our front-end on S3 Bucket:
+--------------------------------------------------
+
+Let's create the our S3 bucket, which will be hosting all our website files (index, css, js).
+
+Search for "S3" in the search box:
+
+![Screen Shot 2024-03-17 at 4 36 50 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/0ab1c9b5-bb93-4ed4-8009-02f4c9deb16b)
+
+Click on "Create bucket":
+
+![Screen Shot 2024-03-17 at 4 38 58 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/08c86125-f8b6-4218-a7a9-9b51771fef5b)
+
+Give your bucket a name and make sure it is unique:
+
+![Screen Shot 2024-03-17 at 4 40 19 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/5f100800-65bd-4458-8492-f0ac5e05db98)
+
+Since we want our lovely game to be publicly accessible, make sure to uncheck the "Block all public access" option:
+
+![Screen Shot 2024-03-17 at 4 41 27 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/e08c8a7d-442e-4d00-be89-ac2d0ca582eb)
+
+leave everything as default, and click on "Create bucket":
+
+![Screen Shot 2024-03-17 at 4 43 44 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/0eb330d1-0880-4fd4-89a6-122aca3f118d)
+
+Browse to your created bucket, and click on "Upload" to upload all our website files:
+
+![Screen Shot 2024-03-17 at 4 45 13 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/be9b563a-f88a-4ae0-bde1-3d35b02aa51f)
+
+
+![Screen Shot 2024-03-17 at 4 47 22 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/3f09108b-dc01-4357-ac86-838aad7a0082)
+
+Click on "Upload":
+
+![Screen Shot 2024-03-17 at 4 48 13 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/557117fb-ca4e-44e1-b49d-21e5f52f8a86)
+
+As soon as the upload is succssful, click on "Properties" to enable the "Static website hosting" option:
+
+![Screen Shot 2024-03-17 at 4 49 05 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/dd9f9154-cac5-498d-bbfe-9ad5b5ca03ab)
+
+Scroll to the very bottom, and click on "Edit":
+
+![Screen Shot 2024-03-17 at 4 50 24 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/e167d757-b112-4fbe-9092-e200282828bb)
+
+Enable the option, and specify the name of your index file:
+
+![Screen Shot 2024-03-17 at 4 51 52 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/485b13e2-1e00-4c15-b7be-9091ef95e6ca)
+
+Then, click on "Save changes":
+
+![Screen Shot 2024-03-17 at 4 53 57 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/1b6a9005-0fb0-4768-a753-06bc4dde0ecf)
+
+Finally, we will need to attach an IAM Policy to this bucket, to all access to it. Click on "Permissions" tab:
+
+![Screen Shot 2024-03-17 at 4 55 10 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/37fb0db7-c823-4dea-94aa-d6c2cad9b593)
+
+Click on "Edit", to add your policy:
+
+![Screen Shot 2024-03-17 at 4 56 56 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/34858fe6-2767-4c5f-84b3-e46a7b31b158)
+
+Copy, the following policy and paste it in the box, but make sure to replace the bucket ARN with your correct ARN:
+
+
+
+
+
+
+
+
+
+
+
 
 
 
