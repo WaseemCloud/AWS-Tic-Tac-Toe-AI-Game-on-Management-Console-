@@ -51,6 +51,14 @@ In the repository, you can find the following files:
 Let's start first with our lambda function.
 
 - Go to your Management Console, and search for "Lambda":
+![Screen Shot 2024-03-17 at 3 29 02 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/cf16dee3-c0b1-4a34-92d6-92a160d9c3c8)
+
+- Click on "Create a function":
+![Screen Shot 2024-03-17 at 3 33 27 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/4aae0333-cdf0-4988-a708-605c8a51253d)
+
+
+
+
 
 
 
