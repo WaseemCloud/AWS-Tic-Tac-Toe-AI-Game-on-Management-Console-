@@ -88,6 +88,16 @@ Place the following JSON body instead, which represents a dummy state for the ga
            "body": "{\"board\": [\"O\", \"X\", \" \", \" \", \"X\", \" \", \" \", \" \", \"O\"]}"
            }
   
+Click on "Invoke":
+
+![Screen Shot 2024-03-17 at 3 57 58 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/10d02556-6434-40aa-86b6-dad6e88354c2)
+
+From the following response, we can tell that the test was successful, and our lambda function did indeed return the desired next move which is represented by cell index no: "7":
+
+![Screen Shot 2024-03-17 at 3 59 12 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/100b06f5-91bf-453e-a9a1-f75d5eb5e2b1)
+
+
+
 
 
 
