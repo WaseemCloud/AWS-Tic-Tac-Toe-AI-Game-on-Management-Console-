@@ -51,10 +51,46 @@ In the repository, you can find the following files:
 Let's start first with our lambda function.
 
 - Go to your Management Console, and search for "Lambda":
+
 ![Screen Shot 2024-03-17 at 3 29 02 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/cf16dee3-c0b1-4a34-92d6-92a160d9c3c8)
 
 - Click on "Create a function":
+
 ![Screen Shot 2024-03-17 at 3 33 27 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/4aae0333-cdf0-4988-a708-605c8a51253d)
+
+- Give a name to your function, select your runtime as "python 3.12", and click on "":
+
+![Screen Shot 2024-03-17 at 3 36 32 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/41907d80-2717-43c5-a168-e85e5b4ad4c6)
+
+![Screen Shot 2024-03-17 at 3 39 08 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/752bb16f-2851-40df-8671-f8ce2e7b9661)
+
+- Scroll down to your code section, and replace the existing default code with your "Lambda_function.py" code:
+
+![Screen Shot 2024-03-17 at 3 40 35 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/b1115763-4a12-4ad4-a254-1f5c577e92a6)
+
+- Once you have successfully placed your code, click on "Deploy", so the Lambda Function gets deployed:
+
+![Screen Shot 2024-03-17 at 3 43 29 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/37484fbc-7fe6-4463-bab9-745c35ed936f)
+
+Now, before we carry on with our deployment, we have to test our Lambda function to make sure that its logic works fine and most importantly, it is returning something. To illustrate this, the game logic will be going as the following, our javascript, will pass the current state of the board to the lambda function through an API Call. Lambda function, will evaluate the received state, check the availabilities, and determine the best move to be made. The best AI move will be returned as the index of the empty cell, which will be filled with the letter "O" by javascript to represent the AI turn. 
+
+To test this, we will need to pass a JSON body to our lambda function, and you will need to click on "Test":
+
+![Screen Shot 2024-03-17 at 3 50 14 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/3ff2f28d-1577-407d-aa4e-ca2c2b6c27e1)
+
+Clear the following JSON Body:
+
+![Screen Shot 2024-03-17 at 3 52 15 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/ede8ac3c-1fbe-4ad9-a81f-d835be09374b)
+
+Place the following JSON body instead, which represents a dummy state for the game board:
+
+
+
+
+
+
+
+
 
 
 
