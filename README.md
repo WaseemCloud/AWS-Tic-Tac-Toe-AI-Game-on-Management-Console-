@@ -140,7 +140,7 @@ Now, your API should be ready to be invoked from your front-end app using the fo
 
 ![Screen Shot 2024-03-17 at 4 24 01 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/eece6f32-0cd4-411d-b814-a1795c74b861)
 
-Before, we move on to our front-end, let's test our API exatly the same way we tested our lambda function, to make sure that it is successfully communicating with our lambda function, and returning a response too:
+Before, we move on to our front-end, let's test our API exactly the same way we have tested our lambda function, to make sure that it is successfully communicating with our lambda function, and returning a response:
 
 ![Screen Shot 2024-03-17 at 4 28 34 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/ff90cc7a-7df2-4da9-8deb-e1fc1008c702)
 
