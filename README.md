@@ -112,12 +112,29 @@ Give your API a name, and click on "Create API":
 
 ![Screen Shot 2024-03-17 at 4 07 34 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/95ed0f65-51e4-4d64-b797-8a67babb2bc4)
 
+We will need to create a "POST" method, to allow our front-end to pass the board state to the Lambda function when this API is invoked:
 
+![Screen Shot 2024-03-17 at 4 09 22 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/58e62586-0314-498e-8bd1-5d615439f8f1)
 
+Select "POST" as a method type, make sure the integration type is "Lambda function", and ensure to link the proper lambda function from the dropdown box:
 
+![Screen Shot 2024-03-17 at 4 11 19 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/6d248d77-80f7-4a28-9c14-5091dc9d486f)
 
+Click on the root resource directory, and make sure to enable "CORS":
 
+![Screen Shot 2024-03-17 at 4 14 58 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/40c26f41-74a7-4393-bb1e-0b023d8f5b66)
 
+Make sure that "POST" is checked:
+
+![Screen Shot 2024-03-17 at 4 18 56 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/522eb218-6bc9-457e-8121-5849e9ba3943)
+
+Click on "Deploy API":
+
+![Screen Shot 2024-03-17 at 4 20 11 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/14538b12-1c8d-4e50-b665-d49cd42fb04a)
+
+Create a new Deployment Stage, and hit on "Deploy":
+
+![Screen Shot 2024-03-17 at 4 21 52 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/8ca093f5-1d09-4705-87e8-51d6eb87145e)
 
 
 
