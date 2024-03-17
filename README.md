@@ -224,7 +224,7 @@ Click on "Edit", to add your policy:
 
 ![Screen Shot 2024-03-17 at 4 56 56 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/34858fe6-2767-4c5f-84b3-e46a7b31b158)
 
-Copy, the following policy and paste it in the box, but make sure to replace the bucket ARN with your correct ARN:
+Copy, the following policy and paste it in the box, but make sure to replace the "BUCKET-ARN" with your correct ARN:
 
 
     {
@@ -240,6 +240,24 @@ Copy, the following policy and paste it in the box, but make sure to replace the
     ]
     }
 
+
+
+![Screen Shot 2024-03-17 at 4 58 37 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/215ea90f-546e-4065-8293-e6ee022c77e3)
+
+Go back to you Bucket properties, and find your web link !
+
+![Screen Shot 2024-03-17 at 5 05 35 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/be854592-8874-4365-892f-50a275285013)
+
+
+![Screen Shot 2024-03-17 at 5 07 18 PM](https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/8141f244-06a0-4e69-8ec4-c96ce6a2fbc4)
+
+--------------------------------------------------
+
+Now, it's time to play the GAME...!!
+
+
+
+https://github.com/WaseemCloud/Tic-Tac-Toe-AI-Game-on-AWS-Management-Console-/assets/157589909/4437b303-9aef-4268-8772-d22b20665b7b
 
 
 
